@@ -97,48 +97,44 @@
                 <nav class="navbar">
                     <ul class="navbar-links">
                         <li class="navbar-dropdown">
-                            <a href="#">Home</a>
+                            <a href="{{route('Home-Page')}}">Home</a>
+                        </li>
+                        <li class="navbar-dropdown">
+                            <a href="{{ route('About-Page') }}">About</a>
+                        </li>
+                        <li class="navbar-dropdown">
+                            <a href="{{route('Our-Courses-Page')}}">Courses</a>
                             <div class="dropdown">
-                                <a href="index.html">home 1</a>
-                                <a href="index-2.html">home 2</a>
+                                <a href="{{route('Our-Courses-Page')}}">our courses</a>
+                                <a href="{{route('Courses-Details-Page')}}">courses details</a>
                             </div>
                         </li>
                         <li class="navbar-dropdown">
-                            <a href="about.html">About</a>
-                        </li>
-                        <li class="navbar-dropdown">
-                            <a href="#">Courses</a>
+                            <a href="{{route('Our-Compaign-Page')}}">campaigns</a>
                             <div class="dropdown">
-                                <a href="our-courses.html">our courses</a>
-                                <a href="courses-details.html">courses details</a>
-                            </div>
-                        </li>
-                        <li class="navbar-dropdown">
-                            <a href="#">campaigns</a>
-                            <div class="dropdown">
-                                <a href="our-campaigns.html">our campaigns</a>
-                                <a href="campaign-details.html">campaign details</a>
+                                <a href="{{route('Our-Compaign-Page')}}">our campaigns</a>
+                                <a href="{{route('Compaign-Details-Page')}}">campaign details</a>
                             </div>
                         </li>
                         <li class="navbar-dropdown">
                             <a href="#">pages</a>
                             <div class="dropdown">
-                                <a href="our-scholar.html">our scholar</a>
-                                <a href="scholar-details.html">scholar details</a>
-                                <a href="our-events.html">our events</a>
-                                <a href="pricing-packages.html">pricing packages</a>
-                                <a href="404.html">404</a>
+                                <a href="{{route('Our-Scholar-Page')}}">our scholar</a>
+                                <a href="{{route('Scholar-Details-Page')}}">scholar details</a>
+                                <a href="{{route('Our-Event-Page')}}">our events</a>
+                                <a href="{{route('Pricing-Packages-Page')}}">pricing packages</a>
+                                <a href="{{route('404-Page')}}">404</a>
                             </div>
                         </li>
                         <li class="navbar-dropdown">
                             <a href="#">News</a>
                             <div class="dropdown">
-                                <a href="our-blog.html">our blog</a>
-                                <a href="blog-details.html">blog details</a>
+                                <a href="{{route('Our-Blog-Page')}}">our blog</a>
+                                <a href="{{route('Blog-Details-Page')}}">blog details</a>
                             </div>
                         </li>
                         <li class="navbar-dropdown">
-                            <a href="contact.html">Contact</a>
+                            <a href="{{route('Contact-Page')}}">Contact</a>
                         </li>
                     </ul>
                 </nav>
