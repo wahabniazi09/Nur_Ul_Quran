@@ -86,8 +86,8 @@
             <div class="two-bar">
                 <div class="d-flex align-items-center justify-content-between">
                     <div class="logo">
-                        <a href="index.html">
-                            <img alt="logo" src="assets/img/logo.png">
+                        <a href="{{route('Home-Page')}}">
+                            <img alt="logo" src="assets/img/logo.png" width="200px">
                         </a>
                     </div>
                     <div class="bar-menu">
