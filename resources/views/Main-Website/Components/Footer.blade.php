@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-logo">
-                            <img src="assets/img/logo.png" alt="logo">
+                            <img src="assets/img/logo.png" alt="logo" width="200px">
                             <h3>Islamic community centre</h3>
                         </div>
                     </div>
